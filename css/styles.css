@@ -36,11 +36,11 @@
         color: #404bbf;
     }
 
-    header {
+    .header {
         border-bottom: 1px solid #e7e9fc;
     }
 
-    .header {
+    .header-div {
         display: flex;
         justify-content: space-between;
     }
@@ -275,7 +275,10 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100%-48)/3);
+}
+
+.portfolio-li {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
